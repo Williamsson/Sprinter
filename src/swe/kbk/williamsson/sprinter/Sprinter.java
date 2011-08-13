@@ -36,7 +36,6 @@ public class Sprinter extends JavaPlugin {
 		PluginDescriptionFile pdfFile = this.getDescription();
 		this.logger.info(pdfFile.getName() + " version " + pdfFile.getVersion() + " is enabled!");
 		setupPermissions();
-	
 	}
 	
 	private void setupPermissions() {
